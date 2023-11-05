@@ -17,198 +17,216 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo"
-          >Web<span class="text-web">Studio</span></a
-        >
-        <ul class="navigation">
-          <li><a href="./index.html" class="navigation-link">Studio</a></li>
-          <li><a href="" class="navigation-link">Portfolio</a></li>
-          <li><a href="" class="navigation-link">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="address-contact"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="address-contact"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="page-header">
+      <div class="container container-nav">
+        <nav class="main-nav">
+          <a href="./index.html" class="logo"
+            >Web<span class="text-web-logo">Studio</span></a
+          >
+          <ul class="navigation">
+            <li class="navigation-list active">
+              <a href="./index.html" class="navigation-link">Studio</a>
+            </li>
+            <li class="navigation-list">
+              <a href="" class="navigation-link">Portfolio</a>
+            </li>
+            <li class="navigation-list">
+              <a href="" class="navigation-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="card-address">
+            <li class="address-contact">
+              <a href="mailto:info@devstudio.com" class="address-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-contact">
+              <a href="tel:+110001111111" class="address-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
-    <main>
-      <!-- first section start -->
+    <!-- first section start -->
+    <main class="main-tag">
       <section class="first-section">
-        <h1 class="main-header">Effective Solutions for Your Business</h1>
-        <button type="button" class="button">Order Service</button>
+        <div class="container container-first-section">
+          <h1 class="main-header">Effective Solutions for Your Business</h1>
+          <button type="button" class="button">Order Service</button>
+        </div>
       </section>
 
+      <!-- second section start -->
       <section class="second-section">
-        <!-- second section start -->
-        <h2 class="second-section-header-two">Banking App</h2>
-        <ul>
-          <li>
-            <h3 class="second-section-header-three">Strategy</h3>
-            <p class="second-section-paragraph">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="second-section-header-three">Punctuality</h3>
-            <p class="second-section-paragraph">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="second-section-header-three">Diligence</h3>
-            <p class="second-section-paragraph">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="second-section-header-three">Technologies</h3>
-            <p class="second-section-paragraph">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+        <div class="container container-second-section">
+          <h2 class="header-second-level hidden-header">Banking App</h2>
+          <ul class="card-second-section">
+            <li class="box-second-section">
+              <h3 class="header-third-level">Strategy</h3>
+              <p class="section-paragraph">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="box-second-section">
+              <h3 class="header-third-level">Punctuality</h3>
+              <p class="section-paragraph">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="box-second-section">
+              <h3 class="header-third-level">Diligence</h3>
+              <p class="section-paragraph">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="box-second-section">
+              <h3 class="header-third-level">Technologies</h3>
+              <p class="section-paragraph">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
+      <!-- third section start -->
       <section class="third-section">
-        <!-- third section start -->
-        <h2 class="third-section-header-two">Our Team</h2>
-        <ul>
-          <li class="third-section-list">
-            <img
-              src="./images/mark-guerrero.jpg"
-              alt="photo Mark Guerrero"
-              width="264"
-              height="260"
-            />
-            <h3 class="third-section-header-three">Mark Guerrero</h3>
-            <p class="third-section-paragraph">Product Designer</p>
-          </li>
-          <li class="third-section-list">
-            <img
-              src="./images/tom-ford.jpg"
-              alt="photo Tom Ford"
-              width="264"
-              height="260"
-            />
-            <h3 class="third-section-header-three">Tom Ford</h3>
-            <p class="third-section-paragraph">Frontend Developer</p>
-          </li>
-          <li class="third-section-list">
-            <img
-              src="./images/camila-garcia.jpg"
-              alt="photo Camila Garcia"
-              width="264"
-              height="260"
-            />
-            <h3 class="third-section-header-three">Camila Garcia</h3>
-            <p class="third-section-paragraph">Marketing</p>
-          </li>
-          <li class="third-section-list">
-            <img
-              src="./images/daniel-wilson.jpg"
-              alt="photo Daniel Wilson"
-              width="264"
-              height="260"
-            />
-            <h3 class="third-section-header-three">Daniel Wilson</h3>
-            <p class="third-section-paragraph">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container container-third-section">
+          <h2 class="header-second-level">Our Team</h2>
+          <ul class="card-team">
+            <li class="third-section-list">
+              <img
+                src="./images/mark-guerrero.jpg"
+                alt="photo Mark Guerrero"
+                width="264"
+                height="260"
+              />
+              <h3 class="header-third-level">Mark Guerrero</h3>
+              <p class="section-paragraph">Product Designer</p>
+            </li>
+            <li class="third-section-list">
+              <img
+                src="./images/tom-ford.jpg"
+                alt="photo Tom Ford"
+                width="264"
+                height="260"
+              />
+              <h3 class="header-third-level">Tom Ford</h3>
+              <p class="section-paragraph">Frontend Developer</p>
+            </li>
+            <li class="third-section-list">
+              <img
+                src="./images/camila-garcia.jpg"
+                alt="photo Camila Garcia"
+                width="264"
+                height="260"
+              />
+              <h3 class="header-third-level">Camila Garcia</h3>
+              <p class="section-paragraph">Marketing</p>
+            </li>
+            <li class="third-section-list">
+              <img
+                src="./images/daniel-wilson.jpg"
+                alt="photo Daniel Wilson"
+                width="264"
+                height="260"
+              />
+              <h3 class="header-third-level">Daniel Wilson</h3>
+              <p class="section-paragraph">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
+      <!-- fourth section start -->
       <section class="fourth-section">
-        <!-- fourth section start -->
-        <h2 class="fourth-section-header-two">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/banking-app.jpg"
-              alt="Banking App"
-              width="360"
-              height="300"
-            />
-            <h3 class="fourth-section-header-three">Banking App</h3>
-            <p class="fourth-section-paragraph">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/cashless-payment.jpg"
-              alt="Cashless Payment"
-              width="360"
-              height="300"
-            />
-            <h3 class="fourth-section-header-three">Cashless Payment</h3>
-            <p class="fourth-section-paragraph">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/meditaion-app.jpg"
-              alt="Meditation App"
-              width="360"
-              height="300"
-            />
-            <h3 class="fourth-section-header-three">Meditation App</h3>
-            <p class="fourth-section-paragraph">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/taxi-service.jpg"
-              alt="Taxi Service"
-              width="360"
-              height="300"
-            />
-            <h3 class="fourth-section-header-three">Taxi Service</h3>
-            <p class="fourth-section-paragraph">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/screen-illustrations.jpg"
-              alt="Screen Illustrations"
-              width="360"
-              height="300"
-            />
-            <h3 class="fourth-section-header-three">Screen Illustrations</h3>
-            <p class="fourth-section-paragraph">Design</p>
-          </li>
-          <li>
-            <img
-              src="./images/online-courses.jpg"
-              alt="Online Courses"
-              width="360"
-              height="300"
-            />
-            <h3 class="fourth-section-header-three">Online Courses</h3>
-            <p class="fourth-section-paragraph">Marketing</p>
-          </li>
-        </ul>
+        <div class="container container-fourth-section">
+          <h2 class="header-second-level">Our Portfolio</h2>
+          <ul class="card-portfolio">
+            <li class="fourth-section-list">
+              <img
+                src="./images/banking-app.jpg"
+                alt="Banking App"
+                width="360"
+                height="300"
+              />
+              <h3 class="header-third-level">Banking App</h3>
+              <p class="section-paragraph">App</p>
+            </li>
+            <li class="fourth-section-list">
+              <img
+                src="./images/cashless-payment.jpg"
+                alt="Cashless Payment"
+                width="360"
+                height="300"
+              />
+              <h3 class="header-third-level">Cashless Payment</h3>
+              <p class="section-paragraph">Marketing</p>
+            </li>
+            <li class="fourth-section-list">
+              <img
+                src="./images/meditaion-app.jpg"
+                alt="Meditation App"
+                width="360"
+                height="300"
+              />
+              <h3 class="header-third-level">Meditation App</h3>
+              <p class="section-paragraph">App</p>
+            </li>
+            <li class="fourth-section-list">
+              <img
+                src="./images/taxi-service.jpg"
+                alt="Taxi Service"
+                width="360"
+                height="300"
+              />
+              <h3 class="header-third-level">Taxi Service</h3>
+              <p class="section-paragraph">Marketing</p>
+            </li>
+            <li class="fourth-section-list">
+              <img
+                src="./images/screen-illustrations.jpg"
+                alt="Screen Illustrations"
+                width="360"
+                height="300"
+              />
+              <h3 class="header-third-level">Screen Illustrations</h3>
+              <p class="section-paragraph">Design</p>
+            </li>
+            <li class="fourth-section-list">
+              <img
+                src="./images/online-courses.jpg"
+                alt="Online Courses"
+                width="360"
+                height="300"
+              />
+              <h3 class="header-third-level">Online Courses</h3>
+              <p class="section-paragraph">Marketing</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <a href="./index.html" class="footer-link"
-        >Web<span class="text-web">Studio</span></a
-      >
-      <p class="footer-paragraph">
-        Increase the flow of customers and sales for your business with digital
-        marketing &AMP; growth solutions.
-      </p>
+      <div class="container container-footer">
+        <a href="./index.html" class="footer-link"
+          >Web<span class="text-web-logo">Studio</span></a
+        >
+        <p class="footer-paragraph">
+          Increase the flow of customers and sales for your business with
+          digital marketing &AMP; growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
