@@ -89,6 +89,7 @@ section {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .navigation-link:hover {
@@ -132,7 +133,7 @@ section {
 }
 
 .navigation-list {
-  padding: 24px 0;
+  margin: 24px 0;
 }
 
 .card-address {
@@ -192,7 +193,7 @@ section {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: 1px;
+  margin: -1px;
   border: 0;
   padding: 0;
   white-space: nowrap;
