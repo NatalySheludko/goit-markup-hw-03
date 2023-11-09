@@ -1,14 +1,8 @@
-/* tag body start */
+/* BODY */
 body {
   font-family: "Roboto", sans-serif;
   background-color: white;
   color: #434455;
-}
-
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 h1,
@@ -29,8 +23,18 @@ ul {
   padding-left: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 section {
   padding: 120px 0;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-second-level {
@@ -39,7 +43,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
 }
@@ -49,24 +53,19 @@ section {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.01em;
   margin-bottom: 8px;
 }
 
 .section-paragraph {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
-/* tag body finish */
 
-/* tag header start */
+/* HEADER */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-}
-
-.page-header a {
-  text-decoration: none;
 }
 
 .logo {
@@ -76,7 +75,7 @@ section {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   margin-right: 76px;
 }
 
@@ -86,32 +85,28 @@ section {
 
 .navigation-link {
   color: #2e2f42;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   padding: 24px 0;
 }
 
-.navigation-link:hover {
-  color: #404bbf;
-}
-
+.navigation-link:hover,
 .navigation-link:focus {
   color: #404bbf;
 }
 
 .address-link {
   color: #434455;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   font-style: normal;
 }
 
-.address-link:hover {
-  color: #404bbf;
-}
-
+.address-link:hover,
 .address-link:focus {
   color: #404bbf;
 }
@@ -127,7 +122,8 @@ section {
   margin-right: auto;
 }
 
-.navigation {
+.navigation,
+.card-address {
   display: flex;
   gap: 40px;
 }
@@ -136,14 +132,7 @@ section {
   margin: 24px 0;
 }
 
-.card-address {
-  display: flex;
-  gap: 40px;
-}
-/* tag header finish */
-
-/* tag main start */
-/* first section start */
+/* FIRST SECTION */
 .first-section {
   background-color: #2e2f42;
   text-align: center;
@@ -155,20 +144,20 @@ section {
   color: white;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
   max-width: 496px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.button {
+.order-button {
   font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   color: white;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   cursor: pointer;
   display: block;
   min-width: 169px;
@@ -179,16 +168,12 @@ section {
   margin-top: 48px;
 }
 
-.button:hover {
+.order-button:hover,
+.order-button:focus {
   background-color: #404bbf;
 }
 
-.button:focus {
-  background-color: #404bbf;
-}
-/* first section finish */
-
-/* second section start */
+/* SECOND SECTION */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -202,53 +187,49 @@ section {
   overflow: hidden;
 }
 
-.card-second-section {
+.menu-second-section {
   display: flex;
   gap: 24px;
 }
 
-.box-second-section {
+.item-second-section {
   width: calc((100% - 3 * 24px) / 4);
 }
-/* second section finish */
 
-/* third section start */
+/* THIRD SECTION */
 .third-section {
   background-color: #f4f4fd;
 }
 
-.card-team {
+.menu-third-section {
   display: flex;
   gap: 24px;
 }
 
-.third-section-list {
+.third-section-item {
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
+
 .personal-data {
   padding: 32px 0;
 }
 
-.third-section .header-third-level {
-  text-align: center;
-}
-
+.third-section .header-third-level,
 .third-section .section-paragraph {
   text-align: center;
 }
-/* third section finish */
 
-/* fourth section start */
-.card-portfolio {
+/* FOURTH SECTION */
+.menu-fourth-section {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-.fourth-section-list {
+.fourth-section-item {
   width: calc((100% - 48px) / 3);
 }
 
@@ -257,11 +238,9 @@ section {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-/* fourth section finish */
-/* tag main finish */
 
-/* tag footer start */
-.footer {
+/* FOOTER */
+.page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
 }
@@ -273,7 +252,7 @@ section {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
@@ -285,8 +264,8 @@ section {
 
 .footer-paragraph {
   color: #f4f4fd;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   max-width: 264px;
 }
-/* tag footer finish */
